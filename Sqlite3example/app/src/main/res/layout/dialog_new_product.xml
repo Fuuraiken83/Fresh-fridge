@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/productName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:hint="Product Name"
+
+        android:scrollbars="vertical" />
+
+    <EditText
+        android:id="@+id/productionDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:hint="Production Date"
+        android:inputType="date"
+        android:layout_below="@id/productName"
+        android:scrollbars="vertical" />
+    <EditText
+        android:id="@+id/expirationDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:hint="Expiration Date"
+        android:inputType="date"
+        android:layout_below="@id/productionDate"
+        android:scrollbars="vertical" />
+</RelativeLayout>

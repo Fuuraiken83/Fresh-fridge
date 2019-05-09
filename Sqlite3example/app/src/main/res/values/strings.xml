@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sqlite3example</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_fridge">AddFridgeActivity</string>
+    <string name="title_activity_product_list">ProductListActivity</string>
+    <string name="title_activity_expired_products">ExpiredProductsActivity</string>
+</resources>
